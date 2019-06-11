@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
     public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, ScrollingActivity.class);
+        Intent intent = new Intent(MainActivity.this, MethodSelectionActivity.class);
         startActivity(intent);
     }
 }
